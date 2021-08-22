@@ -1,0 +1,63 @@
+/* Menu & Logo */ 
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+
+header {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    position: sticky;
+}
+
+#logo {
+    font-size: 1.3em;
+    margin: 0 auto;
+    padding: 0 10px;
+    float: left;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+
+.w-rule {
+    color: rgb(197, 48, 48);
+}
+
+nav {
+    margin: 0 auto;
+    padding: 0 auto;
+    float: right;
+}
+
+nav a {
+    font-size: 1.2em;
+    color: #fff;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+nav a:hover {
+    color: rgb(197, 48, 48);
+    text-decoration: underline;
+
+}
+
+nav li {
+    margin: 10px;
+    padding: 2px;
+    display: inline-block;
+}
+
+#logo, #menu {
+    
+}
+
+body {
+    clear: both;
+}
