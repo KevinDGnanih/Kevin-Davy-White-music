@@ -12,6 +12,8 @@ header {
     margin: 0;
     background-color: black;
     position: sticky;
+    width: 100%;
+    height: 58px;
 }
 
 #logo {
@@ -63,17 +65,28 @@ nav li {
     padding-top: 10px;
 }
 
-/* Top heading picture */
+/* Top Banner picture */
 
 #banner {
     height: 800px;
     width: 100%;
     position: relative;
     overflow: hidden;
+    border: 1px solid black;
 }
 
 #top-pic { 
     width: 100%;
     height: 850px;
     background-image: url('../images/Banner.png');
+
+
+
+}
+
+/* Music Section */
+
+#music-sec h1 {
+    font-size: 2em;
+    text-align: center;
 }
