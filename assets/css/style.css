@@ -62,3 +62,18 @@ nav li {
 #logo, #menu {
     padding-top: 10px;
 }
+
+/* Top heading picture */
+
+#banner {
+    height: 800px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#top-pic { 
+    width: 100%;
+    height: 850px;
+    background-image: url('../images/Banner.png');
+}
