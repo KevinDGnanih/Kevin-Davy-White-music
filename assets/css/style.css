@@ -54,10 +54,11 @@ nav li {
     display: inline-block;
 }
 
-#logo, #menu {
-    
+.active {
+    color: rgb(197, 48, 48);
+    text-decoration: underline;
 }
 
-body {
-    clear: both;
+#logo, #menu {
+    padding-top: 10px;
 }
