@@ -7,6 +7,8 @@
 }
 
 
+
+
 header {
     padding: 0;
     margin: 0;
@@ -65,6 +67,7 @@ nav li {
     padding-top: 10px;
 }
 
+
 /* Top Banner picture */
 
 #banner {
@@ -84,6 +87,33 @@ nav li {
 /* Music Section */
 
 #music-sec h1 {
+    font-size: 2em;
+    text-align: center;
+}
+
+#music-block-1 {
+    font-size: 1.2em;
+    float: left;
+    padding-left: 20%;
+}
+
+#music-block-1 li {
+    list-style-type: none;
+}
+
+#music-block-2 {
+    font-size: 1.2em;
+    float: right;
+    padding-right: 20%;
+}
+
+#music-block-2 li {
+    list-style-type: none;
+}
+
+/* Video section */
+
+#video-sec h1 {
     font-size: 2em;
     text-align: center;
 }
