@@ -231,3 +231,16 @@ nav li {
     background-color: tomato;
     color: white;
   }
+
+  /*Footer Section*/
+
+  footer {
+      width: 100%;
+      height: 100px;
+  }
+
+  footer > p, li {
+      display: inline-block;
+      text-align: center;
+
+  }
