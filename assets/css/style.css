@@ -94,7 +94,7 @@ nav li {
 
 #music-sec h1 {
     padding-top: 15px;
-    font-size: 2.5em;
+    font-size: 3em;
     text-align: center;
 }
 
@@ -108,6 +108,12 @@ nav li {
     list-style-type: none;
 }
 
+#music-block-1 a {
+    text-decoration: none;
+    font-size: 35px;
+    color: black;
+}
+
 #music-block-2 {
     font-size: 1.2em;
     float: right;
@@ -116,6 +122,36 @@ nav li {
 
 #music-block-2 li {
     list-style-type: none;
+}
+
+#music-block-2 a {
+    text-decoration: none;
+    font-size: 35px;
+    color: black;
+}
+
+.fa-spotify {
+    color: rgb(15, 161, 15);
+}
+
+.fa-itunes {
+    color: rgb(194, 70, 70)
+}
+
+.fa-deezer {
+    color: rgb(201, 63, 201);
+}
+
+.fa-youtube {
+    color: red;
+}
+
+#music-block-1 a:hover, #music-block-2 a:hover {
+    color: tomato;
+}
+
+#music-block-1, #music-block-2 {
+    margin-top: 70px;
 }
 
 /* Video section */
@@ -128,7 +164,7 @@ nav li {
 
 #video-sec h1 {
     padding-top: 15px;
-    font-size: 2.5em;
+    font-size: 3em;
     text-align: center;
 }
 
