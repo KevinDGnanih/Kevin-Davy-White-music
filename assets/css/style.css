@@ -30,7 +30,7 @@ header {
 }
 
 .w-rule {
-    color: rgb(197, 48, 48);
+    color: tomato;
 }
 
 nav {
@@ -47,7 +47,7 @@ nav a {
 }
 
 nav a:hover {
-    color: rgb(197, 48, 48);
+    color: tomato;
     text-decoration: underline;
 
 }
@@ -59,7 +59,7 @@ nav li {
 }
 
 .active {
-    color: rgb(197, 48, 48);
+    color: tomato;
     text-decoration: underline;
 }
 
@@ -90,6 +90,7 @@ nav li {
     width: 100%;
     height: 400px;
     border-bottom: 1px solid black;
+    background: url('../images/kdw-shadow-2.jpg') no-repeat 0 -300px;
 }
 
 #music-sec h1 {
