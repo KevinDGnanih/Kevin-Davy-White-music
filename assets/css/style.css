@@ -211,7 +211,7 @@ nav li {
 .see-more-button {
     border: none;
     color: white;
-    padding: 16px 32px;
+    padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -239,8 +239,39 @@ nav li {
       height: 100px;
   }
 
-  footer > p, li {
-      display: inline-block;
-      text-align: center;
+  #bio-button {
+    margin-left: 46%;
+    margin-top: 30px;
+}
 
+.contact-button {
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .contact-button {
+    background-color: white;
+    color: black;
+    border: 2px solid tomato;
+  }
+  
+  .contact-button:hover {
+    background-color: tomato;
+    color: white;
+  }
+
+  .social-networks {
+    text-align: center;
+  }
+
+  .social-networks > li {
+      display: inline;
   }
