@@ -75,11 +75,11 @@ nav li {
 /* Top Banner picture */
 
 #banner {
-    height: 720px;
+    height: 700px;
     width: 100%;
     position: relative;
     overflow: hidden;
-    border: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 #top-pic { 
@@ -301,4 +301,16 @@ nav li {
   footer > p {
       padding-top: 10px;
       color: white;
+  }
+
+  #top-button > a {
+      text-decoration: none;
+      color: white;
+      float: right;
+      padding-right: 200px;
+      margin-top: -30px;
+  }
+
+  .fa-chevron-up {
+      color: tomato;
   }
