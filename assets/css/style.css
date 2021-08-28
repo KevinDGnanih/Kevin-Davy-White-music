@@ -207,8 +207,8 @@ nav li {
     margin-top: 50px;
 }
 
-#bio-button a {
-    margin-left: 1.5%;
+#bio-button {
+    margin-left: 47%;
     margin-top: 30px;
 }
 
@@ -243,9 +243,8 @@ nav li {
       height: 100px;
   }
 
-  #bio-button {
-    margin-left: 46%;
-    margin-top: 30px;
+  #contact-button {
+    margin-top: 20px;
 }
 
 .contact-button {
@@ -274,8 +273,9 @@ nav li {
 
   .social-networks {
     text-align: center;
+    width: 100%;
   }
 
   .social-networks > li {
-      display: inline;
+      display: inline-block;
   }
