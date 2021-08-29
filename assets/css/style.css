@@ -71,7 +71,6 @@ nav li {
     padding-top: 10px;
 }
 
-
 /* Top Banner picture */
 
 #banner {
@@ -141,7 +140,6 @@ nav li {
     background-color: tomato;
     color: white;
   }
-
 
 /* Music Section */
 
@@ -241,16 +239,15 @@ nav li {
     
 }
 
+/*Footer Section*/
 
-  /*Footer Section*/
+footer {
+    width: 100%;
+    height: 150px;
+    background-color: black;
+}
 
-  footer {
-      width: 100%;
-      height: 150px;
-      background-color: black;
-  }
-
-  #contact-button {
+#contact-button {
     padding: 10px;
 }
 
@@ -265,70 +262,70 @@ nav li {
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
-  }
+}
   
-  .contact-button {
+.contact-button {
     background-color: white;
     color: black;
     border: 2px solid tomato;
-  }
+}
   
-  .contact-button:hover {
+.contact-button:hover {
     background-color: tomato;
     color: white;
-  }
+}
 
-  .social-networks {
+.social-networks {
     text-align: center;
     width: 100%;
-  }
+}
 
-  #socials-logo > li {
-      display: inline;
-      list-style-type: none;
-      padding: 50px;
-      padding-top: 15px;
-      font-size: 2em;
-  }
+#socials-logo > li {
+    display: inline;
+    list-style-type: none;
+    padding: 50px;
+    padding-top: 15px;
+    font-size: 2em;
+}
 
-  #socials-logo a {
-      color: whitesmoke;
-  }
+#socials-logo a {
+    color: whitesmoke;
+}
 
-  #socials-logo a:hover {
-      color: tomato;
-  }
+#socials-logo a:hover {
+    color: tomato;
+}
 
-  footer > p {
-      padding-top: 10px;
-      color: white;
-  }
+footer > p {
+    padding-top: 10px;
+    color: white;
+}
 
-  #top-button > a {
-      text-decoration: none;
-      color: white;
-      float: right;
-      padding-right: 200px;
-      margin-top: -30px;
-  }
+#top-button > a {
+    text-decoration: none;
+    color: white;
+    float: right;
+    padding-right: 200px;
+    margin-top: -30px;
+}
 
-  .fa-chevron-up {
-      color: tomato;
-  }
+.fa-chevron-up {
+    color: tomato;
+}
 
-  body {
-      width: 100%;
-      margin: 0;
-      padding: 0;
-  }
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
 
-  /*Form Section*/
+/*Form Section*/
 
-  #page-form {
-      width: 100%;
-      height: 720px;
-      background: url('../images/contact2.jpg') no-repeat 700px center;
-    }
+#page-form {
+    width: 100%;
+    height: 720px;
+    background: url('../images/contact2.jpg') no-repeat 700px center;
+}
 /*
 
   #form-sec {
@@ -400,59 +397,51 @@ nav li {
     */
 
     
-        h1 {
-        margin: 0 0 20px;
-        font-weight: 400;
-        text-align: center;
-        }
-        p {
-        margin: 0 0 5px;
-        }
-        .main-block {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        min-height: 100vh;
-        margin-right: 35%;
-        }
-        form {
-        padding: 25px;
-        margin: 25px;
-        margin-bottom: 20%;
-        box-shadow: 0 2px 5px #f5f5f5; 
-        background: #f5f5f5; 
-        }
-        .fas {
-        margin: 25px 10px 0;
-        font-size: 72px;
-        color: #fff;
-        }
-        .fa-envelope {
-        transform: rotate(-20deg);
-        }
-        .fa-at , .fa-mail-bulk{
-        transform: rotate(10deg);
-        }
-        input, textarea {
-        width: calc(100% - 18px);
-        padding: 8px;
-        margin-bottom: 20px;
-        border: 1px solid tomato;
-        outline: none;
-        }
-        input::placeholder {
-        color: #666;
-        }
-        button {
-        width: 100%;
-        padding: 10px;
-        border: none;
-        background: tomato; 
-        font-size: 16px;
-        font-weight: 400;
-        color: black;
-        }
-        button:hover {
-        background: rgb(189, 33, 5);
-        }    
+h1 {
+    margin: 0 0 20px;
+    font-weight: 400;
+    text-align: center;
+}
+p {
+    margin: 0 0 5px;
+}
+.main-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-right: 35%;
+}
+form {
+    padding: 25px;
+    margin: 25px;
+    margin-bottom: 20%;
+    box-shadow: 0 2px 5px #f5f5f5; 
+    background: #f5f5f5; 
+}
+
+        
+input, textarea {
+    width: calc(100% - 18px);
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid tomato;
+    outline: none;
+}
+input::placeholder {
+    color: #666;
+}
+
+#sub-but {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: tomato; 
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    }
+sub-but:hover {
+    background: rgb(189, 33, 5);
+}    
