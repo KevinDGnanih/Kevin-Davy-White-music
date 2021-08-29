@@ -322,6 +322,8 @@ nav li {
       padding: 0;
   }
 
+  /*Form Section*/
+
   #page-form {
       width: 100%;
       height: 720px;
@@ -330,11 +332,11 @@ nav li {
 
 
   #form-sec {
-      width: 700px;
+      width: 55%;
       margin: 250px 450px;
       position: absolute;
       border: 1px solid black;
-      height: 250px;
+      height: 300px;
   }
 
   form > h2 {
@@ -369,4 +371,26 @@ nav li {
 
     #submit-button {
         text-align: center;
+        width: 40%;
+        padding: 7px;
+        background: white; 
+        font-size: 16px;
+        font-weight: 400;
+        color: black;
+        border: 1px solid tomato;
+        display: inline;
+        text-decoration: none;
+
     }
+    
+    #submit-button:hover {
+        background: tomato;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+
+    .contact-form > textarea {
+        border: 1px solid black;
+    }
+
+    
