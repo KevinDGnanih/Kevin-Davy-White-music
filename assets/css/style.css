@@ -329,7 +329,7 @@ nav li {
       height: 720px;
       background: url('../images/contact2.jpg') no-repeat 700px center;
     }
-
+/*
 
   #form-sec {
       width: 55%;
@@ -390,7 +390,69 @@ nav li {
     }
 
     .contact-form > textarea {
-        border: 1px solid black;
+    width: calc(50% - 18px);
+    padding: 8px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    border: 1px solid tomato;
+    outline: none;
     }
+    */
 
     
+        h1 {
+        margin: 0 0 20px;
+        font-weight: 400;
+        text-align: center;
+        }
+        p {
+        margin: 0 0 5px;
+        }
+        .main-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin-right: 35%;
+        }
+        form {
+        padding: 25px;
+        margin: 25px;
+        margin-bottom: 20%;
+        box-shadow: 0 2px 5px #f5f5f5; 
+        background: #f5f5f5; 
+        }
+        .fas {
+        margin: 25px 10px 0;
+        font-size: 72px;
+        color: #fff;
+        }
+        .fa-envelope {
+        transform: rotate(-20deg);
+        }
+        .fa-at , .fa-mail-bulk{
+        transform: rotate(10deg);
+        }
+        input, textarea {
+        width: calc(100% - 18px);
+        padding: 8px;
+        margin-bottom: 20px;
+        border: 1px solid tomato;
+        outline: none;
+        }
+        input::placeholder {
+        color: #666;
+        }
+        button {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        background: tomato; 
+        font-size: 16px;
+        font-weight: 400;
+        color: black;
+        }
+        button:hover {
+        background: rgb(189, 33, 5);
+        }    
