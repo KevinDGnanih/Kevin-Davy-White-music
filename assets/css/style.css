@@ -90,7 +90,7 @@ nav li {
 
 #bio-sec {
     width: 100%;
-    height: 400px;
+    height: 600px;
     border-bottom: 1px solid black;
     background-color: rgb(245, 241, 241);
     /*background: url('../images/kdw-shadow-2.jpg') no-repeat -50px -300px;*/
@@ -214,8 +214,8 @@ nav li {
 }
 
 .fa-record-vinyl {
-    font-size: 3em;
-    padding-left: 230px;
+    font-size: 6em;
+    padding-left: 205px;
     padding-top: 80px;
     
 }
