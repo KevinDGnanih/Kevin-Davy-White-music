@@ -343,76 +343,6 @@ body {
     height: 720px;
     background: url('../images/contact2.jpg') no-repeat 700px center;
 }
-/*
-
-  #form-sec {
-      width: 55%;
-      margin: 250px 450px;
-      position: absolute;
-      border: 1px solid black;
-      height: 300px;
-  }
-
-  form > h2 {
-      text-align: center;
-  }
-
-  form > label {
-      margin-left: 10px;
-  }
-
-  #fname {
-      border: 1px solid black;
-  }
-
-    #lname {
-    border: 1px solid black;
-    }
-    #email {
-    border: 1px solid black;
-    }
-
-    #subject {
-        width: 200px;
-        border-bottom: 1px solid black;
-    }
-
-    #message {
-        width: 500px;
-        height: 150px;
-        border: 1px solid black;
-    }
-
-    #submit-button {
-        text-align: center;
-        width: 40%;
-        padding: 7px;
-        background: white; 
-        font-size: 16px;
-        font-weight: 400;
-        color: black;
-        border: 1px solid tomato;
-        display: inline;
-        text-decoration: none;
-
-    }
-    
-    #submit-button:hover {
-        background: tomato;
-        transition-duration: 0.4s;
-        cursor: pointer;
-    }
-
-    .contact-form > textarea {
-    width: calc(50% - 18px);
-    padding: 8px;
-    margin-bottom: 20px;
-    margin-left: 200px;
-    border: 1px solid tomato;
-    outline: none;
-    }
-    */
-
     
 h1 {
     margin: 0 0 20px;
@@ -463,3 +393,10 @@ input::placeholder {
     background: rgb(189, 33, 5);
 }    
 
+/* Media Queries*/
+
+/* For larger to medium size from 1024px wide and down */
+
+@media screen and (max-width: 1024px) {
+    
+}
